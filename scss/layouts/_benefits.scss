@@ -1,0 +1,43 @@
+/*================= Benefits============== */
+
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advantages__item {
+  width: 270px;
+  margin-right: 30px;
+}
+.advantages__item:last-child {
+  margin-right: 0;
+}
+.advantages__item .advantages__title {
+  margin-bottom: 10px;
+}
+.advantages__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--our-team-bg-color);
+}
+
+.advantages__icon {
+  fill: var(--color1, #2196f3);
+  fill: var(--color2, #212121);
+}
+
+.advantages__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.advantages__subscribe {
+  color: var(--prymary-text-color);
+}

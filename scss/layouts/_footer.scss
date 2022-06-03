@@ -1,0 +1,42 @@
+/* ===========Футер============= */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--secondary-bg-color);
+}
+.footer--flex {
+  display: flex;
+  align-items: baseline;
+}
+.adress {
+  margin-right: 70px;
+}
+.logo-footer__link {
+  display: block;
+  margin-bottom: 20px;
+}
+.logo-footer__text--white {
+  color: var(--buuton-text-color);
+}
+
+.address__location {
+  margin-bottom: 9px;
+  color: var(--buuton-text-color);
+  font-style: normal;
+}
+
+.address__item:first-child {
+  margin-bottom: 9px;
+}
+.footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+.footer__link:hover,
+.footer__link:focus {
+  color: var(--accent-color);
+}
