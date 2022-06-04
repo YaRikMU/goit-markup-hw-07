@@ -1,6 +1,7 @@
 // -----UTILS-----
 @import './utils/vars';
 @import './utils/visually-hidden';
+@import './utils/mixins';
 
 // --------BASE------
 @import './base/common';
@@ -12,8 +13,8 @@
 @import './components/logo';
 @import './components/backdrop';
 @import './components/modal-form';
-@import './components/footer-socials';
 @import './components/subscribe-form';
+@import './components/footer-socials';
 @import './components/portfolio-buttons';
 
 // ---------LAYOUTS--------
@@ -23,5 +24,5 @@
 @import './layouts/about';
 @import './layouts/team';
 @import './layouts/clients';
-@import './layouts/portfolio';
 @import './layouts/footer';
+@import './layouts/portfolio';

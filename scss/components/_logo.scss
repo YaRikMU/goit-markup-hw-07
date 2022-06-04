@@ -9,7 +9,8 @@
 
   color: var(--accent-color);
   text-decoration: none;
-}
-.logo__link {
-  color: var(--logo-color);
+
+  &__link {
+    color: var(--logo-color);
+  }
 }

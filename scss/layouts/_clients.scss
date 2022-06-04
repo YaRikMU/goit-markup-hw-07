@@ -25,12 +25,9 @@
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
   fill: var(--socials-icon-color);
-}
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
-  fill: var(--accent-color);
-}
-.clients__link:hover,
-.clients__link:focus {
-  border-color: var(--accent-color);
+
+  .clients__link:hover &,
+  .clients__link:focus & {
+    fill: var(--accent-color);
+  }
 }
